@@ -1,7 +1,7 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
-};
-
-export default nextConfig;
+// next.config.js
+module.exports = {
+  reactStrictMode: true,
+  images: {
+    domains: ['wikiclic.com', 'www.graphic-procede.fr', 'hubfi.fr'], // Ajoute les domaines utilisés pour tes images
+  },
+}
