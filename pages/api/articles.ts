@@ -27,7 +27,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       title: 'First Article',
       content: 'This is the content of the first article.',
       image: 'https://wikiclic.com/wp-content/uploads/2023/05/image-libre-de-droit-wikiclic.jpg',
-      url: 'https://example.com/article/1',
+      url: 'https://example1.com/article/1',
     },
     {
       id: 2,
